@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Camp Siteleaf</title>
+    <link>http://camp.siteleaf.net/</link>
+    <atom:link href="http://camp.siteleaf.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 14 Jun 2016 11:02:15 +0000</pubDate>
+    <lastBuildDate>Tue, 14 Jun 2016 11:02:15 +0000</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Lakes</title>
+        <description>
+</description>
+        <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
+        <link>http://camp.siteleaf.net/posts/lakes/</link>
+        <guid isPermaLink="true">http://camp.siteleaf.net/posts/lakes/</guid>
+        
+        <category>water</category>
+        
+        
+        <category>activities</category>
+        
+      </item>
+    
+      <item>
+        <title>Campfire</title>
+        <description>
+</description>
+        <pubDate>Sun, 05 Jun 2016 00:00:00 +0000</pubDate>
+        <link>http://camp.siteleaf.net/posts/campfire/</link>
+        <guid isPermaLink="true">http://camp.siteleaf.net/posts/campfire/</guid>
+        
+        <category>outdoors</category>
+        
+        
+        <category>activities</category>
+        
+      </item>
+    
+      <item>
+        <title>Hiking</title>
+        <description>
+</description>
+        <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
+        <link>http://camp.siteleaf.net/posts/hiking/</link>
+        <guid isPermaLink="true">http://camp.siteleaf.net/posts/hiking/</guid>
+        
+        <category>excercise</category>
+        
+        <category>exploring</category>
+        
+        
+        <category>activities</category>
+        
+      </item>
+    
+      <item>
+        <title>Relax</title>
+        <description>
+</description>
+        <pubDate>Fri, 03 Jun 2016 00:00:00 +0000</pubDate>
+        <link>http://camp.siteleaf.net/posts/relax/</link>
+        <guid isPermaLink="true">http://camp.siteleaf.net/posts/relax/</guid>
+        
+        <category>nature</category>
+        
+        
+        <category>activities</category>
+        
+      </item>
+    
+      <item>
+        <title>Escape</title>
+        <description>
+</description>
+        <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
+        <link>http://camp.siteleaf.net/posts/escape/</link>
+        <guid isPermaLink="true">http://camp.siteleaf.net/posts/escape/</guid>
+        
+        <category>accomodations</category>
+        
+        
+        <category>activities</category>
+        
+      </item>
+    
+      <item>
+        <title>Nature</title>
+        <description>
+</description>
+        <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+        <link>http://camp.siteleaf.net/posts/nature/</link>
+        <guid isPermaLink="true">http://camp.siteleaf.net/posts/nature/</guid>
+        
+        <category>nature</category>
+        
+        
+        <category>activities</category>
+        
+      </item>
+    
+  </channel>
+</rss>
