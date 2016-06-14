@@ -1140,7 +1140,7 @@ body {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 1.42857143;
-    color:#{{ site.color.secondary }
+    color:#{{ site.color.secondary }}
 }
 
 ;
@@ -7361,15 +7361,15 @@ input:focus {
 .pager .disabled>a:hover,
 .pager .disabled>a:focus,
 .pager .disabled>span {
-    background-color:#3be6c4
+    background-color:#3be6c4;
 }
 .alert a,
 .alert .alert-link {
     color:#fff;
-    text-decoration:underline
+    text-decoration:underline;
 }
 .alert .close {
-    text-decoration:none
+    text-decoration:none;
 }
 .close {
     color:#fff;
