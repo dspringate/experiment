@@ -869,5 +869,39 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+/*============================================================================
+  Table of Contents
 
+
+ #Breakpoint and Grid Variables
+ 
+==============================================================================*/
+
+/*============================================================================
+  #Breakpoint and Grid Variables
+==============================================================================*/
+$viewportIncrement: 1px;
+
+$small: 480px;
+$mediumSmall: 641px;
+$medium: 769px;
+$large: 1025px;
+
+$postSmall: $small + $viewportIncrement;
+$preMediumSmall: $mediumSmall - $viewportIncrement;
+$preMedium: $medium - $viewportIncrement;
+$preLarge: $large - $viewportIncrement;
+
+/*================ The following are dependencies of csswizardry grid ================*/
+$breakpoints: (
+  'small' '(max-width: #{$small})',
+  'mediumSmall' '(min-width: #{$postSmall}) and (max-width: #{$preMedium})',
+  'mediumSmall-down' '(max-width: #{$preMedium})',
+  'medium' '(min-width: #{$medium}) and (max-width: #{$preLarge})',
+  'medium-down' '(max-width: #{$preLarge})',
+  'large' '(min-width: #{$large})'
+);
+$breakpoint-has-widths: ('small', 'mediumSmall', 'mediumSmall-down', 'medium', 'medium-down', 'large');
+$breakpoint-has-push:  ('mediumSmall', 'mediumSmall-down', 'medium', 'medium-down', 'large');
+$breakpoint-has-pull:  ('mediumSmall', 'mediumSmall-down', 'medium', 'medium-down', 'large');
 
