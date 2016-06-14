@@ -40,16 +40,6 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
-    <header{% if page.background_image %} style="background-image: url('{{ page.background_image }}')"{% endif %}>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">{{ page.lead-in }}</div>
-                <div class="intro-heading">{{ page.heading }}</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
-        </div>
-    </header>
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
