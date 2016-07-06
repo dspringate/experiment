@@ -26,6 +26,27 @@ $breakpoint-has-widths: ('small', 'mediumSmall', 'mediumSmall-down', 'medium', '
 $breakpoint-has-push:  ('mediumSmall', 'mediumSmall-down', 'medium', 'medium-down', 'large');
 $breakpoint-has-pull:  ('mediumSmall', 'mediumSmall-down', 'medium', 'medium-down', 'large');
 
+
+/*============================================================================
+  #Sass Mixins
+==============================================================================*/
+.clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both; }
+  *zoom: 1;
+}
+
+@mixin clearfix() {
+  &:after {
+    content: '';
+    display: table;
+    clear: both; }
+  *zoom: 1;
+}
+
+
 /*============================================================================
   Prefixer mixin for generating vendor prefixes:
     - Based on https://github.com/thoughtbot/bourbon/blob/master/app/assets/stylesheets/addons/_prefixer.scss
