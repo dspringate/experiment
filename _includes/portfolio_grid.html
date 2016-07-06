@@ -2,14 +2,14 @@
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="grid">
-                <div class="grid-item one-half">
+                <div class="grid__item one-half">
                     <h2 class="section-heading">An ever-growing collection of inspiring stores built on Shopify.</h2>
                     <h3 class="section-subheading text-muted">Learn more</h3>
                 </div>
             </div>
             <div class="grid">
             {% for post in site.posts %}
-                <div class="grid-item one-quarter portfolio-item">
+                <div class="grid__item one-quarter portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
